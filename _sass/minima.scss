@@ -14,14 +14,14 @@ $spacing-unit: 30px !default;
 
 $text-color: #a4bab7 !default;
 $background-color: #0a0a0a !default;
-$background-color-footer-header: #130208 !default;
-$center-box-color: #25040f !default; //Posts
+$background-color-footer-header: #25040f !default;
+$center-box-color: #370616 !default; //Posts
 $brand-color: #771a18 !default; // Highlight/Header color
 
 $grey-color: #b9cac8 !default; //Text
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark: darken($grey-color, 25%) !default;
-$orange-color: #771a18 !default; //Text Header & RSS-Symbol
+$orange-color: green !default; //#771a18 !default; //Text Header & RSS-Symbol
 $table-text-align: left !default;
 
 // Width of the content area
