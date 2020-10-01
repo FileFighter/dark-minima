@@ -189,12 +189,13 @@
  * Page content
  */
 .page-content {
-  background: url("/assets/images/parallax-mountain.png") no-repeat center center fixed; 
+  background: url("/assets/images/parallax-mountain.png") no-repeat center
+    center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  
+
   padding: $spacing-unit 0;
   flex: 1 0 auto;
 }
@@ -245,7 +246,7 @@
   }
 }
 
-.post-content { 
+.post-content {
   margin-bottom: $spacing-unit;
 
   h2 {
@@ -328,7 +329,7 @@
 
 .card {
   background-color: $center-box-color;
-  box-shadow: 0 0 0 0, 0 8px 16px rgba(0, 0, 0, 0.2);
+  // box-shadow: 0 0 0 0, 0 8px 16px rgba(0, 0, 0, 0.2);
   border-radius: 6px;
   padding: 20px;
 }
