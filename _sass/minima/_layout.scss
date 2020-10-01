@@ -189,6 +189,12 @@
  * Page content
  */
 .page-content {
+  background: url(https://www.pinterest.de/pin/334603447316587470/) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
   padding: $spacing-unit 0;
   flex: 1 0 auto;
 }
@@ -239,13 +245,7 @@
   }
 }
 
-.post-content {
-   background: url(https://www.pinterest.de/pin/334603447316587470/) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  
+.post-content { 
   margin-bottom: $spacing-unit;
 
   h2 {
