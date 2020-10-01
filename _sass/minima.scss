@@ -18,11 +18,11 @@ $text-color: #a4bab7 !default;
 $background-color: #0a0a0a !default;
 $background-color-footer-header: #25040f !default;
 $center-box-color: #370616 !default; //Posts
-$background-navigation: $background-color-footer-header;
+$background-navigation: #25040f; //$background-color-footer-header;
 $background-color-code: #25040f !default;
 $brand-color: #771a18 !default; // Highlight/Header color
 
-$icon1: $dm-tech-color;
+$icon1: #48429A; //$dm-tech-color;
 $grey-color: #b9cac8 !default; //Text
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark: darken($grey-color, 25%) !default;
