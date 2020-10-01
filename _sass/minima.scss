@@ -12,15 +12,15 @@ $base-line-height: 1.5 !default;
 
 $spacing-unit: 30px !default;
 
-$text-color: #0a0a00 !default;
-$background-color: #080f0f !default;
+$text-color: #a4bab7 !default;
+$background-color: #0a0a0a !default;
 $center-box-color: #130208 !default;
 $brand-color: #771a18 !default; // Highlight/Header color
 
-$grey-color: #a4bab7 !default; //Text
+$grey-color: #b9cac8 !default; //Text
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark: darken($grey-color, 25%) !default;
-$orange-color: #d58936 !default; //Text Header & RSS-Symbol
+$orange-color: #771a18 !default; //Text Header & RSS-Symbol
 $table-text-align: left !default;
 
 // Width of the content area
