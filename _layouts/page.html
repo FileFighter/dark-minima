@@ -11,4 +11,8 @@ layout: default
     {{ content }}
   </div>
 
+  {%- if page.issuelink -%}
+    <p class="issuelink">Comment on this blog post <a href="{{ page.issuelink }}">here</a></p>.
+  {%- endif -%}
+  
 </article>
