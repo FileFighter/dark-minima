@@ -12,6 +12,11 @@
   position: relative;
 }
 
+.header-image {
+	height: inherit;
+	width: auto;
+}
+
 .site-title {
   @include relative-font-size(1.625);
   font-weight: 300;
