@@ -12,7 +12,7 @@ $base-line-height: 1.5 !default;
 
 $spacing-unit: 30px !default;
 
-$dm-tech-color: #48429A !default; //Links
+$dm-tech-color: #48429A !default; //Mail
 
 $text-color: #a4bab7 !default;
 $background-color: #0a0a0a !default;
@@ -20,7 +20,7 @@ $background-color-footer-header: #25040f !default;
 $center-box-color: #370616 !default; //Posts
 $background-navigation: #25040f; //$background-color-footer-header;
 $background-color-code: #25040f !default;
-$brand-color: #771a18 !default; // Highlight/Header/TableHeaderBackground color
+$brand-color: #771a18 !default; // Highlight/Header/TableHeaderBackground color / Links
 
 $icon1: #48429A; //$dm-tech-color;
 $grey-color: #b9cac8 !default; //Text
@@ -28,6 +28,7 @@ $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark: darken($grey-color, 25%) !default;
 $orange-color: #48429A !default; //#771a18 !default; //Text Header & RSS-Symbol
 $table-text-align: left !default;
+$heading-color: tomato; //h2, h3, h4
 
 // Width of the content area
 $content-width: 800px !default;
