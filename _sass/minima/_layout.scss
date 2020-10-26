@@ -263,7 +263,7 @@
 
   h2 {
     @include relative-font-size(1.75);
-    color: tomato;
+    color: $heading-color;
 
     @media screen and (min-width: $on-large) {
       @include relative-font-size(2);
@@ -272,7 +272,7 @@
 
   h3 {
     @include relative-font-size(1.375);
-    color: lighten($text-color, 20%);
+    color: $heading-color;
 
     @media screen and (min-width: $on-large) {
       @include relative-font-size(1.625);
@@ -281,7 +281,7 @@
 
   h4 {
     @include relative-font-size(1.125);
-    color: lighten($text-color, 20%);
+    color: $heading-color;
 
     @media screen and (min-width: $on-large) {
       @include relative-font-size(1.25);
