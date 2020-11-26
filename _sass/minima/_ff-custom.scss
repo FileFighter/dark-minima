@@ -8,5 +8,11 @@
     text-align: center;
 }
 
+.diagram{
+    filter:invert(1);
+    width: 100%;
+}
+
+
 //invert(121%) sepia(28%) saturate(6110%) hue-rotate(321deg) brightness(97%) contrast(102%)
 // see https://stackoverflow.com/questions/42966641/how-to-transform-black-into-any-given-color-using-only-css-filters
