@@ -8,13 +8,9 @@
     text-align: center;
 }
 
-$queer-animation-duration: 18s;
 .queer-banner{
     background:black;
     cursor: url("/assets/images/adventurer-sword-rainbow.png"), default;
-    background-size: 1800% 1800%;
-    height: 100%;
-    width: 100%;
     color:white;
     border-top: 5px solid $brand-color;
     text-align: center;
@@ -31,65 +27,15 @@ $queer-animation-duration: 18s;
                     #c32ede,
                     #c32ede
     );
-
-    -webkit-animation: rainbow $queer-animation-duration ease infinite;
-    -z-animation: rainbow $queer-animation-duration ease infinite;
-    -o-animation: rainbow $queer-animation-duration ease infinite;
-    animation: rainbow $queer-animation-duration ease infinite;
-
-    @-webkit-keyframes rainbow {
-        0%{
-            background-position:0 82%;
-            color: white;
-        }
-        50%{
-            background-position:100% 19%;
-            color: black;
-        }
-        100%{
-            background-position:0 82%;
-            color: white;
-        }
-    }
-    @-moz-keyframes rainbow {
-        0%{
-            background-position:0 82%;
-            color: white;
-        }
-        50%{
-            background-position:100% 19%;
-            color: black;
-        }
-        100%{
-            background-position:0 82%;
-            color: white;
-        }
-    }
-    @-o-keyframes rainbow {
-        0%{
-            background-position:0 82%;
-            color: white;
-        }
-        50%{
-            background-position:100% 19%;
-            color: black;
-        }
-        100%{
-            background-position:0 82%;
-            color: white;
-        }
-    }
+    animation: rainbow 18s ease infinite;
     @keyframes rainbow {
         0%{
-            background-position:0 82%;
             color: white;
         }
         50%{
-            background-position:100% 19%;
             color: black;
         }
         100%{
-            background-position:0 82%;
             color: white;
         }
     }
