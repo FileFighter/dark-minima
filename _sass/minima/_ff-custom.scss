@@ -8,6 +8,87 @@
     text-align: center;
 }
 
+$queer-animation-duration: 18s;
+.queer-banner{
+    background:black;
+    color:white;
+    text-align: center;
+    background: linear-gradient(
+                    124deg,
+                    #000000,
+                    #000000,
+                    #784f16,
+                    #fe0000,
+                    #fe8c01,
+                    #ffe500,
+                    #11a00b,
+                    #0643b3,
+                    #c32ede,
+                    #c32ede
+    );
+    -webkit-animation: rainbow $queer-animation-duration ease infinite;
+    -z-animation: rainbow $queer-animation-duration ease infinite;
+    -o-animation: rainbow $queer-animation-duration ease infinite;
+    animation: rainbow $queer-animation-duration ease infinite;
+
+    @-webkit-keyframes rainbow {
+        0%{
+            background-position:0 82%;
+            color: white;
+        }
+        50%{
+            background-position:100% 19%;
+            color: black;
+        }
+        100%{
+            background-position:0 82%;
+            color: white;
+        }
+    }
+    @-moz-keyframes rainbow {
+        0%{
+            background-position:0 82%;
+            color: white;
+        }
+        50%{
+            background-position:100% 19%;
+            color: black;
+        }
+        100%{
+            background-position:0 82%;
+            color: white;
+        }
+    }
+    @-o-keyframes rainbow {
+        0%{
+            background-position:0 82%;
+            color: white;
+        }
+        50%{
+            background-position:100% 19%;
+            color: black;
+        }
+        100%{
+            background-position:0 82%;
+            color: white;
+        }
+    }
+    @keyframes rainbow {
+        0%{
+            background-position:0 82%;
+            color: white;
+        }
+        50%{
+            background-position:100% 19%;
+            color: black;
+        }
+        100%{
+            background-position:0 82%;
+            color: white;
+        }
+    }
+}
+
 .diagram{
     filter:invert(1);
     width: 100%;
