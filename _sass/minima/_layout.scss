@@ -134,7 +134,8 @@
  */
 .site-footer {
   background-color: $background-color-footer-header;
-  border-top: 1px solid $grey-color-light;
+  //border-top: 1px solid $grey-color-light;
+  border-top: 5px solid $brand-color;
   padding: $spacing-unit 0;
 }
 

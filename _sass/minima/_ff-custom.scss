@@ -11,6 +11,7 @@
 $queer-animation-duration: 18s;
 .queer-banner{
     background:black;
+    background-size: 1800% 1800%;
     color:white;
     text-align: center;
     background: linear-gradient(
@@ -26,6 +27,7 @@ $queer-animation-duration: 18s;
                     #c32ede,
                     #c32ede
     );
+
     -webkit-animation: rainbow $queer-animation-duration ease infinite;
     -z-animation: rainbow $queer-animation-duration ease infinite;
     -o-animation: rainbow $queer-animation-duration ease infinite;
