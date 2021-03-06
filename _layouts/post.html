@@ -24,18 +24,18 @@ layout: default
     {{ content }}
   </div>
   
-  {%- if page.issuelink -%}
-    <p class="issuelink">Comment on this blog post <a href="{{ page.issuelink }}" target="_blank">here</a>.</p>
-  {%- endif -%}
-  
-  <script src="https://utteranc.es/client.js"
-        repo="FileFighter/filefighter.github.io"
-        issue-term="title"
-        label="Peer-Review"
-        theme="github-dark"
-        crossorigin="anonymous"
-        async>
-  </script>
+  <div>
+    <h3>Comments:</h3>
+    <p>Comment on our blog below or open an issue on our Github repository.</p>
+    <script src="https://utteranc.es/client.js"
+      repo="FileFighter/filefighter.github.io"
+      issue-term="title"
+      label="Peer-Review"
+      theme="github-dark"
+      crossorigin="anonymous"
+      async>
+    </script>
+  </div>
 
   {%- include share_bar.html -%}
 
