@@ -27,6 +27,15 @@ layout: default
   {%- if page.issuelink -%}
     <p class="issuelink">Comment on this blog post <a href="{{ page.issuelink }}" target="_blank">here</a>.</p>
   {%- endif -%}
+  
+  <script src="https://utteranc.es/client.js"
+        repo="https://github.com/FileFighter/filefighter.github.io"
+        issue-term="title"
+        label="Peer-Review"
+        theme="github-dark"
+        crossorigin="anonymous"
+        async>
+  </script>
 
   {%- include share_bar.html -%}
 
