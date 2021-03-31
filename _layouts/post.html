@@ -26,7 +26,11 @@ layout: default
   
   <div>
     <h2>Leave a comment on our blog:</h3>
-    <p>Comment on our blog below or open an issue on our Github repository.</p>
+      <p>Comment on our blog below or open an issue on our Github repository.
+        {%- if page.issuelink -%}
+        <span class="issuelink">Or comment on this existing issue <a href="{{ page.issuelink }}" target="_blank">here</a>.</span>
+        {%- endif -%}
+      </p>
     <script src="https://utteranc.es/client.js"
       repo="FileFighter/filefighter.github.io"
       issue-term="title"
