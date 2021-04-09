@@ -28,16 +28,20 @@
                     #c32ede,
                     #c32ede
     );
+    background-size: 1800% 1800%;
     animation: rainbow 18s ease infinite;
     @keyframes rainbow {
         0%{
             color: white;
+            background-position:0 82%;
         }
         50%{
             color: black;
+            background-position:100% 19%;
         }
         100%{
             color: white;
+            background-position:0 82%;
         }
     }
 }
