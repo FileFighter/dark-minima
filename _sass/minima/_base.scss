@@ -195,6 +195,16 @@ pre {
   }
 }
 
+.largeIframe{
+  @media screen and (min-width: $on-large) {
+    width: 80vw;
+    margin-left: calc( 40vw - (#{$content-width} - (#{$spacing-unit} * 2)));
+    margin-left: -webkit-calc( 40vw - (#{$content-width} - (#{$spacing-unit} * 2)));
+    margin-right: calc( 40vw - (#{$content-width} - (#{$spacing-unit} * 2)));
+    margin-right: -webkit-calc( 40vw - (#{$content-width} - (#{$spacing-unit} * 2)));
+
+  }
+}
 
 
 /**
