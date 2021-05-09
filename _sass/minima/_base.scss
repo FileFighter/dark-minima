@@ -17,7 +17,7 @@ dl, dd, ol, ul, figure {
 body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   color: $text-color;
-  cursor: url("/assets/images/adventurer-sword.png"), default;
+  cursor: url("/assets/images/cursor/Sword.png"), default;
   background-color: $background-color;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
@@ -106,7 +106,7 @@ h1, h2, h3, h4, h5, h6 {
  */
 a {
   color: $link-color;
-  cursor: url("/assets/images/adventurer-staff.png"), pointer;
+  cursor: url("/assets/images/cursor/Staff.png"), pointer;
   text-decoration: none;
   font-style: italic;
 
